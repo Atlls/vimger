@@ -12,7 +12,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Themes
 Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
 
 " Tools
 Plug 'preservim/nerdtree'
@@ -22,6 +21,11 @@ Plug 'easymotion/vim-easymotion'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " so ~/cocconf.vim
 "Plug 'SirVer/ultisnips'
+
+" IDE
+Plug 'mhinz/vim-signify'
+Plug 'yggdroot/indentline'
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 

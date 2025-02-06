@@ -12,11 +12,13 @@ set showmatch
 set sw=2
 
 let g:python3_host_prog = "/usr/bin/python3"
-so ~/vimgner/maps.vim
-so ~/vimgner/plugins.vim
+so ~/vimger/maps.vim
+so ~/vimger/plugins.vim
+so ~/vimger/plugins-conf.vim
 
 colorscheme gruvbox
 set bg=dark
+let g:airline_theme= 'wombat'
 
 set laststatus=2
 set noshowmode

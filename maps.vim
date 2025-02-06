@@ -6,4 +6,6 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>l :tabnext<CR>
 nnoremap <Leader>h :tabprevius<CR>
 
-map <Leader>nt :NERDTreeFind<CR>
+" map <Leader>nt :NERDTreeFind<CR>
+map :nt :NERDTreeFind<CR>
+map :uu :NERDComMinimalComment
