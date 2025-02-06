@@ -16,10 +16,11 @@ Plug 'shinchu/lightline-gruvbox.vim'
 
 " Tools
 Plug 'preservim/nerdtree'
+Plug 'easymotion/vim-easymotion'
 
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-so ~/.vim/cocconf.vim
+" so ~/cocconf.vim
 "Plug 'SirVer/ultisnips'
 
 call plug#end()
